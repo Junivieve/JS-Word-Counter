@@ -41,7 +41,7 @@ textarea:focus {
 
 }
 
-button {
+#calc {
   padding: 1rem;
   border-radius: 1.2rem;
   border: none;
@@ -49,5 +49,10 @@ button {
   font-size: 3rem;
   font-family: Nunito;
   color: white;
+  outline: none;
+}
+
+#clear {
+  border: none;
   outline: none;
 }

@@ -14,5 +14,6 @@ function calculateWordCount() {
 function clearText() {
   console.log("hi");
   var input = document.getElementById("inputbox");
-  input.value = "";
+  input.value = "Write something...";
+  resultsText.innerText = "";
 }
